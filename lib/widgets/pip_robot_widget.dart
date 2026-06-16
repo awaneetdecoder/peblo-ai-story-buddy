@@ -268,7 +268,7 @@ class _PipPainter extends CustomPainter {
     // Chest light
     paint.color = accentColor;
     canvas.drawCircle(Offset(cx, cy + 30), 6, paint);
-    paint.color = Colors.white.withOpacity(0.6);
+    paint.color = Colors.white.withValues(alpha: 0.6);
     canvas.drawCircle(Offset(cx - 1, cy + 28), 2, paint);
 
     // Arms
